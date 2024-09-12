@@ -1,0 +1,154 @@
+# Ignore arquivos de sistema do macOS
+.DS_Store
+
+# Ignore arquivos de sistema do Windows
+Thumbs.db
+desktop.ini
+
+# Ignore arquivos de log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore dependências do Node.js
+node_modules/
+package-lock.json
+yarn.lock
+
+# Ignore arquivos de dependências do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.whl
+*.egg-info/
+dist/
+build/
+venv/
+env/
+.Python
+
+# Ignore arquivos de Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+*.iml
+*.ipr
+*.iws
+*.log
+
+# Ignore arquivos do Maven
+target/
+
+# Ignore arquivos do Gradle
+.gradle/
+build/
+
+# Ignore arquivos de Ruby
+*.gem
+*.rbc
+.bundle/
+vendor/bundle
+log/
+tmp/
+db/*.sqlite3
+db/*.sqlite3-journal
+
+# Ignore arquivos de Rust
+target/
+
+# Ignore arquivos de Go
+bin/
+vendor/
+
+# Ignore arquivos do PHP Composer
+/vendor/
+
+# Ignore arquivos do Laravel
+/vendor
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+.env
+Homestead.yaml
+Homestead.json
+
+# Ignore arquivos do Rails
+/log/*
+!/log/.keep
+/tmp
+!/tmp/.keep
+/config/master.key
+
+# Ignore arquivos do Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+/media
+/static
+
+# Ignore arquivos de pacotes do C++
+*.out
+*.o
+*.a
+*.so
+*.exe
+
+# Ignore arquivos do Visual Studio
+.vscode/
+.vs/
+*.csproj.user
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore arquivos do IntelliJ / JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+*.class
+
+# Ignore arquivos de editor de texto
+*.swp
+*.swo
+*~
+
+# Ignore arquivos do sistema de build (Docker, Vagrant)
+Dockerfile
+docker-compose.yml
+.dockerignore
+.vagrant/
+.vbox/
+
+# Ignore arquivos do sistema de controle de versão
+*.orig
+
+# Ignore arquivos de chaves privadas e de configuração sensível
+*.pem
+*.key
+*.crt
+.env
+
+# Ignore arquivos de imagens geradas
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Ignore PDFs e documentos
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
